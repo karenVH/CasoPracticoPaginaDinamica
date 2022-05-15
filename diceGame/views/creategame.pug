@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    div.container 
+        form#createGame(class="form", method="POST")
+            h1 Crear Juego 
+            div.
+            label(for="gamer") 
+               input.gamers(id="player1", type="text", name="gamer" ,value="", placeholder="Nombre Jugador1", required)
+            label(for="gamer") 
+               input.gamers(id="player2", type="text", name="gamer" ,value="", placeholder="Nombre Jugador2", required)
+            label(for="gamer")    
+               input.gamers(id="player3", type="text", name="gamer" ,value="", placeholder="Nombre Jugador3", required)
+            button(class="createbutton", type="submit", onsubmit="getData()") Crear Juego
+
+            h3
+               a(class="volver", href="/") Regresar a Inicio

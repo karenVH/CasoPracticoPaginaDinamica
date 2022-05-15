@@ -1,0 +1,19 @@
+extends layout 
+
+block content
+    div.container
+      form(action="/startGame", method="post", class="container-dice--form")  
+        h1 Empezar juego
+        label(for="gamerBet") 
+            input.gamers(type="text",name="id", value="", placeholder="id Juego" required)
+        label(for="gamerBet") 
+            input.gamers(type="text",name="gamerBet", value="", placeholder="Apuesta jugador1" required)
+        label(for="gamerBet") 
+            input.gamers(type="text",name="gamerBet", value="", placeholder="Apuesta jugador2" required)
+        label(for="gamerBet") 
+            input.gamers(type="text",name="gamerBet", value="",placeholder="Apuesta jugador3" required)
+        
+        input.startbutton(type="submit",value="Empezar Juego", onsubmit="getBet()")
+      
+        h3
+            a(class="container-dice--backHome", href="/") Regresar a inicio

@@ -1,0 +1,108 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgb(199, 122, 253);  
+}
+
+a {
+  color: #000000;
+}
+
+.container{
+  position: relative;
+  left: 15em;
+}
+
+.banner, img{
+  margin: 0;
+  width: 100%;
+}
+
+.createbutton{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background: #5b3ec4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.createbutton:hover {
+  background: #7d63dc;
+}
+
+.consultbutton{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background: #5b3ec4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.consultbutton:hover {
+  background: #7d63dc;
+}
+
+.startbutton{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background: #5b3ec4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.startbutton:hover {
+  background: #7d63dc;
+}
+
+.section{
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
+
+/*estilos formularios*/
+form{
+  padding: 10px;
+  width: 800px;
+  background: rgb(211, 156, 251);
+}
+.gamers{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+
+
+
